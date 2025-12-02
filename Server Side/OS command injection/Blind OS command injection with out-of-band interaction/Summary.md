@@ -32,6 +32,7 @@ By injecting commands that perform network calls—such as `nslookup <collaborat
    - Confirm repeatable interactions whenever the crafted payload is sent, proving remote command execution.
 
 We use a counter at both requests to identify what exact parameter is vulnerable and what exact payload works. You can send payloads without counter for simplifying the attack, just to solve the lab.
+Using DNS lookup as an out-of-band interaction method could be tricky and NOT the best option. See Detailed Walkthrough for explanation.
 
 ## Separators List
 ```sh
