@@ -1,5 +1,3 @@
-# Detailed Walkthrough – Lab 3: Blind OS command injection with output redirection
-
 ## 1. Initial reconnaissance
 Start on the main page and quickly found the feedback form at `/feedback`, which contained the usual fields:
 - `name`
